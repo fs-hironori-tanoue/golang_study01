@@ -30,11 +30,9 @@ https://golang.org/dl/
 +++
 ### 開発環境
 #### インストール
-- OS X 環境  
-@snapend
+@fa[apple]  
 パッケージを使用して通常のインストールを実行する。
-- Windows 環境  
-@fa[windows]
+@fa[windows]  
 MSIインストーラーよりインストールを実行する。
 ---
 ### 2.プログラムの構成と実行
