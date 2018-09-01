@@ -58,14 +58,10 @@ https://golang.org/dl/
 @[1](Goでは何らかのパッケージに属する必要がある) |
 @[3-5](プログラムで使用するパッケージを指定) |
 @[7-9](メイン処理はmain関数で定義)
----
+---?code=cmd/01_exec.txt
 @snap[north]
 ### プログラムの実行
 @snapend
-```
-> go run hello.go
-Hello, World!
-```
 @[1](go run [ファイル名]で実行) |
 @[2](実行結果の表示) |
 ---
