@@ -23,10 +23,10 @@
 - ガベージコレクターのサポート |
 - 並列処理のネイティブサポート |
 - 改良されたC言語 |
----
++++
 ### ダウンロード
 https://golang.org/dl/ 
---- ?image=images/go_download.png&size=55% 55%
++++ ?image=images/go_download.png&size=55% 55%
 +++
 ### インストール
 - @fa[apple fa-lg] パッケージを使用して通常のインストールを実行
