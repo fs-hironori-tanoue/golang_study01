@@ -13,25 +13,25 @@
 - C言語との比較
 - ダウンロード
 - インストール
-+++
+---
 ### Go言語とは
 - Google社によって開発 |
 - コンパイル型言語 |
 - マルチプラットフォーム |
 - オブジェクト指向ではない |
-+++
+---
 ### C言語との比較
 - ガベージコレクターのサポート |
 - 並列処理のネイティブサポート |
 - 改良されたC言語 |
-+++ ?image=images/go_download.png&size=55% 55%
+--- ?image=images/go_download.png&size=55% 55%
 @snap[north-east]
-@size[3.5em](ダウンロード)
+@size[1em](ダウンロード)
 @snapend
 @snap[south]
 https://golang.org/dl/
 @snapend
-+++
+---
 ### インストール
 - @fa[apple fa-lg] パッケージを使用して通常のインストールを実行
 - @fa[windows fa-lg] MSIインストーラーよりインストールを実行
@@ -41,12 +41,12 @@ https://golang.org/dl/
 - プログラムの実行
 - ああああ
 - ああああ
-+++?code=hello/hello.go
+---?code=hello/hello.go
 ### Hello, World!
 @[1](Goでは何らかのパッケージに属する必要がある) |
 @[3-5](プログラムで使用するパッケージを指定) |
 @[7-9](メイン処理はmain関数で定義)
-+++
+---
 ### プログラムの実行
 
 ---
