@@ -35,4 +35,12 @@ https://golang.org/dl/
 - Windows 環境  
 MSIインストーラーよりインストールを実行する。
 ---
+### 2.プログラムの構成と実行
+- Hello, World!
+- ああああ
+- ああああ
+- ああああ
++++
+### Hello, World!
+---?code=hello/hello.go
 ### おわり
