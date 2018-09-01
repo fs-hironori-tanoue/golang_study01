@@ -43,8 +43,8 @@ https://golang.org/dl/
 @snap[north]
 ### インストール
 @snapend
-- @fa[apple fa-lg] パッケージを使用して通常のインストールを実行
-- @fa[windows fa-lg] MSIインストーラーよりインストールを実行
+- @fa[apple fa-lg] パッケージインストーラー
+- @fa[windows fa-lg] MSIインストーラー
 ---
 @snap[north]
 ### 2.プログラムの構成と実行
@@ -64,7 +64,7 @@ https://golang.org/dl/
 @snapend
 ```
 > go run hello.go
-Hello, World!
+Hello, World! |
 ```
 ---
 ### おわり
