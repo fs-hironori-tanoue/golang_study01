@@ -1,3 +1,4 @@
+--- ?image=images/techjin.jpg&opacity=40
 ## Go言語勉強会
 ### 第1回 入門編
 #### TD-Unit Hironori Tanoue
@@ -23,10 +24,13 @@
 - ガベージコレクターのサポート |
 - 並列処理のネイティブサポート |
 - 改良されたC言語 |
-+++
-### ダウンロード
-https://golang.org/dl/ 
 +++ ?image=images/go_download.png&size=55% 55%
+@snap[north-east]
+@size[3.5em](ダウンロード)
+@snapend
+@snap[south]
+https://golang.org/dl/
+@snapend
 +++
 ### インストール
 - @fa[apple fa-lg] パッケージを使用して通常のインストールを実行
@@ -42,7 +46,7 @@ https://golang.org/dl/
 @[1](Goでは何らかのパッケージに属する必要がある) |
 @[3-5](プログラムで使用するパッケージを指定) |
 @[7-9](メイン処理はmain関数で定義)
----
++++
 ### プログラムの実行
 
 ---
