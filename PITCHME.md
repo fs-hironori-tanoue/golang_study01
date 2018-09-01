@@ -10,7 +10,8 @@
 ### 1. はじめに
 - Go言語とは
 - C言語との比較
-- 開発環境
+- ダウンロード
+- インストール
 +++
 ### Go言語とは
 - Google社によって開発 |
@@ -22,15 +23,17 @@
 - ガベージコレクターのサポート |
 - 並列処理のネイティブサポート |
 - 改良されたC言語 |
++++ ?image=images/go_download.png&size=55% 55%
+@snap[north-east]
+### ダウンロード
+@snapend
+@snap[south]
+https://golang.org/dl/ 
+@snapend
 +++
-### 開発環境
-ダウンロード：https://golang.org/dl/
-![images/go_download.png](images/go_download.png)
-+++
-### 開発環境
-#### インストール
-- @fa[apple] パッケージを使用して通常のインストールを実行する。
-- @fa[windows] MSIインストーラーよりインストールを実行する。
+### インストール
+- @fa[apple fa-lg] パッケージを使用して通常のインストールを実行する。
+- @fa[windows fa-lg] MSIインストーラーよりインストールを実行する。
 ---
 ### 2.プログラムの構成と実行
 - Hello, World!
