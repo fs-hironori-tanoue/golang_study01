@@ -24,16 +24,13 @@
 - 改良されたC言語 |
 +++
 ### 開発環境
-#### Goのダウンロード
-https://golang.org/dl/
+ダウンロード：https://golang.org/dl/
 ![images/go_download.png](images/go_download.png)
 +++
 ### 開発環境
 #### インストール
-@fa[apple]  
-パッケージを使用して通常のインストールを実行する。
-@fa[windows]  
-MSIインストーラーよりインストールを実行する。
+- @fa[apple] パッケージを使用して通常のインストールを実行する。
+- @fa[windows] MSIインストーラーよりインストールを実行する。
 ---
 ### 2.プログラムの構成と実行
 - Hello, World!
