@@ -2,10 +2,6 @@
 ### 第1回 入門編
 #### TD-Unit Hironori Tanoue
 ---
-@title[目次]
-@snap[north]
-### 目次
-@snapend
 ### 目次
 1. はじめに
 2. プログラムの構成と実行
