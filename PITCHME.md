@@ -42,5 +42,6 @@ MSIインストーラーよりインストールを実行する。
 - ああああ
 +++
 ### Hello, World!
----?code=hello/hello.go
+?code=hello/hello.go
+---
 ### おわり
