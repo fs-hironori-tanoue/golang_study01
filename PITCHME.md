@@ -25,7 +25,7 @@
 - 改良されたC言語 |
 +++ ?image=images/go_download.png&size=55% 55%
 @snap[north-east]
-### ダウンロード
+ダウンロード
 @snapend
 @snap[south]
 https://golang.org/dl/ 
