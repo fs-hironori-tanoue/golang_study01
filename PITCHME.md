@@ -45,8 +45,10 @@ https://golang.org/dl/
 @snapend
 #### インストール
 - OS X 環境  
+fa[apple]
 パッケージを使用して通常のインストールを実行する。
 - Windows 環境  
+fa[windows]
 MSIインストーラーよりインストールを実行する。
 ---
 @snap[north]
