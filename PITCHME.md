@@ -34,7 +34,7 @@
 - 改良されたC言語 |
 --- ?image=images/go_download.png&size=55% 55%
 @snap[north]
-@size[1em](ダウンロード)
+### ダウンロード
 @snapend
 @snap[south]
 https://golang.org/dl/
@@ -51,8 +51,6 @@ https://golang.org/dl/
 @snapend
 - Hello, World!
 - プログラムの実行
-- ああああ
-- ああああ
 ---?code=hello/hello.go
 @snap[north]
 ### Hello, World!
@@ -64,6 +62,9 @@ https://golang.org/dl/
 @snap[north]
 ### プログラムの実行
 @snapend
-
+```
+> go run hello.go
+Hello, World!
+```
 ---
 ### おわり
