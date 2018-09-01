@@ -65,4 +65,16 @@ https://golang.org/dl/
 @[1](go run [ファイル名]で実行) |
 @[2](実行結果の表示) |
 ---
+@snap[north]
+### Goのコマンド
+@snapend
+- go run  
+ビルド & 実行
+- go build  
+ビルドのみ
+- go fmt  
+ソースコード整形
+- go test  
+テストコード実行
+---
 ### おわり
