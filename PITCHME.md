@@ -64,7 +64,9 @@ https://golang.org/dl/
 @snapend
 ```
 > go run hello.go
-Hello, World! |
+Hello, World!
 ```
+@[1](go run [ファイル名]で実行) |
+@[2](実行結果の表示) |
 ---
 ### おわり
