@@ -3,51 +3,67 @@
 ### 第1回 入門編
 #### TD-Unit Hironori Tanoue
 ---
+@snap[north]
 ### 目次
+@snapend
 1. はじめに
 2. プログラムの構成と実行
 3. 言語の基本
 ---
+@snap[north]
 ### 1. はじめに
+@snapend
 - Go言語とは
 - C言語との比較
 - ダウンロード
 - インストール
 ---
+@snap[north]
 ### Go言語とは
+@snapend
 - Google社によって開発 |
 - コンパイル型言語 |
 - マルチプラットフォーム |
 - オブジェクト指向ではない |
 ---
+@snap[north]
 ### C言語との比較
+@snapend
 - ガベージコレクターのサポート |
 - 並列処理のネイティブサポート |
 - 改良されたC言語 |
 --- ?image=images/go_download.png&size=55% 55%
-@snap[north-east]
+@snap[north]
 @size[1em](ダウンロード)
 @snapend
 @snap[south]
 https://golang.org/dl/
 @snapend
 ---
+@snap[north]
 ### インストール
+@snapend
 - @fa[apple fa-lg] パッケージを使用して通常のインストールを実行
 - @fa[windows fa-lg] MSIインストーラーよりインストールを実行
 ---
+@snap[north]
 ### 2.プログラムの構成と実行
+@snapend
 - Hello, World!
 - プログラムの実行
 - ああああ
 - ああああ
 ---?code=hello/hello.go
+@snap[north]
 ### Hello, World!
+@snapend
 @[1](Goでは何らかのパッケージに属する必要がある) |
 @[3-5](プログラムで使用するパッケージを指定) |
 @[7-9](メイン処理はmain関数で定義)
 ---
+@snap[north]
 ### プログラムの実行
+@snapend
 
 ---
 ### おわり
