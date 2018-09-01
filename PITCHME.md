@@ -3,6 +3,9 @@
 #### TD-Unit Hironori Tanoue
 ---
 @title[目次]
+@snap[north-east]
+@size[0.6em](Hoge)
+@snapend
 ### 目次
 1. はじめに
 2. プログラムの構成と実行
