@@ -24,16 +24,12 @@
 - 並列処理のネイティブサポート |
 - 改良されたC言語 |
 +++ ?image=images/go_download.png&size=55% 55%
-@snap[north-east]
-ダウンロード
-@snapend
-@snap[south]
+### ダウンロード
 https://golang.org/dl/ 
-@snapend
 +++
 ### インストール
-- @fa[apple fa-lg] パッケージを使用して通常のインストールを実行する。
-- @fa[windows fa-lg] MSIインストーラーよりインストールを実行する。
+- @fa[apple fa-lg] パッケージを使用して通常のインストールを実行
+- @fa[windows fa-lg] MSIインストーラーよりインストールを実行
 ---
 ### 2.プログラムの構成と実行
 - Hello, World!
