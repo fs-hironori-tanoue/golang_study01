@@ -3,8 +3,8 @@
 #### TD-Unit Hironori Tanoue
 ---
 @title[目次]
-@snap[north-east]
-@size[0.6em](Hoge)
+@snap[north]
+目次
 @snapend
 ### 目次
 1. はじめに
