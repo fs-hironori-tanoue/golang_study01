@@ -68,6 +68,7 @@ https://golang.org/dl/
 @snap[north]
 ### Goのコマンド
 @snapend
+'''
 - go run  
 ビルド & 実行
 - go build  
@@ -76,5 +77,6 @@ https://golang.org/dl/
 ソースコード整形
 - go test  
 テストコード実行
+'''
 ---
 ### おわり
