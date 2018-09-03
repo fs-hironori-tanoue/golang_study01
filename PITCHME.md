@@ -68,14 +68,15 @@ https://golang.org/dl/
 @snap[north]
 ### Goのコマンド
 @snapend
-'''
-ビルド & 実行
-> go build [file]
-ビルドのみ
-> go fmt [file]
-ソースコード整形
-> go test [file]
-テストコード実行
-'''
+```
+$ go run hello.go
+$ go build hello.go
+$ go fmt hello.go
+$ go test hellog.go
+```
+@[1](ビルド & 実行) |
+@[2](ビルドのみ) |
+@[3](ソースコード整形) |
+@[4](テストコード実行) |
 ---
 ### おわり
