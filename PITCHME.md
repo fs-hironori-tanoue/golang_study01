@@ -1,4 +1,4 @@
---- ?image=images/techjin.jpg&opacity=80
+--- ?image=images/techjin.jpg&size=cover&opacity=50
 ## Go言語勉強会
 ### 第1回 入門編
 #### TD-Unit Hironori Tanoue
