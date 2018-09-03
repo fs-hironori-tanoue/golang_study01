@@ -1,4 +1,4 @@
---- ?image=images/techjin.jpg&size=cover&opacity=50
+---?image=images/techjin.jpg&size=cover&opacity=20
 ## Go言語勉強会
 ### 第1回 入門編
 #### TD-Unit Hironori Tanoue
@@ -32,7 +32,7 @@
 - ガベージコレクターのサポート |
 - 並列処理のネイティブサポート |
 - 改良されたC言語 |
---- ?image=images/go_download.png&size=55% 55%
+---?image=images/go_download.png&size=55% 55%
 @snap[north]
 ### ダウンロード
 @snapend
