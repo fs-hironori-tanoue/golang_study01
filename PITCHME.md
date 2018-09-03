@@ -69,7 +69,6 @@ https://golang.org/dl/
 ### Goのコマンド
 @snapend
 '''
-> go run [file] 
 ビルド & 実行
 > go build [file]
 ビルドのみ
