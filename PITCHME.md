@@ -7,7 +7,7 @@
 ### 目次
 @snapend
 1. はじめに
-2. プログラムの構成と実行
+2. 構成と実行
 3. 言語の基本
 ---
 @snap[north]
@@ -47,7 +47,7 @@ https://golang.org/dl/
 - @fa[windows fa-lg] MSIインストーラー
 ---
 @snap[north]
-### 2.プログラムの構成と実行
+### 2.構成と実行
 @snapend
 - Hello, World!
 - プログラムの実行
@@ -68,13 +68,15 @@ https://golang.org/dl/
 @snap[north]
 ### Goのコマンド
 @snapend
-- go run  
+'''
+> go run [file] 
 ビルド & 実行
-- go build  
+> go build [file]
 ビルドのみ
-- go fmt  
+> go fmt [file]
 ソースコード整形
-- go test  
+> go test [file]
 テストコード実行
+'''
 ---
 ### おわり
