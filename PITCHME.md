@@ -51,6 +51,8 @@ https://golang.org/dl/
 @snapend
 - Hello, World!
 - プログラムの実行
+- Goのコマンド
+- パッケージと構成
 ---?code=hello/hello.go
 @snap[north]
 ### Hello, World!
@@ -58,10 +60,14 @@ https://golang.org/dl/
 @[1](Goでは何らかのパッケージに属する必要がある) |
 @[3-5](プログラムで使用するパッケージを指定) |
 @[7-9](メイン処理はmain関数で定義)
----?code=cmd/01_exec.txt
+---
 @snap[north]
 ### プログラムの実行
 @snapend
+```
+$ go run hello.go
+Hello, World!
+```
 @[1](go run [ファイル名]で実行) |
 @[2](実行結果の表示) |
 ---
@@ -78,5 +84,20 @@ $ go test hellog.go
 @[2](ビルドのみ) |
 @[3](ソースコード整形) |
 @[4](テストコード実行) |
+---
+@snap[north]
+### パッケージと構成
+@snapend
+```
+zoo
+ ├── animals
+ |   ├── elephant.go
+ |   ├── monkey.go
+ |   └── rabbit.go
+ └── main.go
+```
+@[1](アプリケーションと同名のディレクトリ) |
+@[6](mainパッケージ定義用のmain.go) |
+@[2-5](独自に定義するパッケージ) |
 ---
 ### おわり
