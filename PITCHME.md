@@ -53,7 +53,7 @@ https://golang.org/dl/
 - プログラムの実行
 - Goのコマンド
 - パッケージと構成
----?code=hello/hello.go
+---?code=src/hello/hello.go
 @snap[north]
 ### Hello, World!
 @snapend
@@ -90,14 +90,30 @@ $ go test hellog.go
 @snapend
 ```
 zoo
- ├── animals  
- |   ├── elephant.go  
- |   ├── monkey.go  
- |   └── rabbit.go  
- └── main.go  
+├── animals  
+|   ├── elephant.go  
+|   ├── monkey.go  
+|   └── rabbit.go  
+└── main.go  
 ```
 @[1](アプリケーションと同名のディレクトリ) |
 @[6](mainパッケージ定義用のmain.go) |
 @[2-5](独自に定義するパッケージ) |
+---?code=src/zoo/animals/elephant.go
+@snap[north]
+### パッケージと構成
+@snapend
+---?code=src/zoo/animals/monkey.go
+@snap[north]
+### パッケージと構成
+@snapend
+---?code=src/zoo/animals/rabbit.go
+@snap[north]
+### パッケージと構成
+@snapend
+---?code=src/zoo/main.go
+@snap[north]
+### パッケージと構成
+@snapend
 ---
 ### おわり
