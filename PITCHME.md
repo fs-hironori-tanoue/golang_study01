@@ -90,11 +90,11 @@ $ go test hellog.go
 @snapend
 ```
 zoo
- ├── animals
- |   ├── elephant.go
- |   ├── monkey.go
- |   └── rabbit.go
- └── main.go
+ ├── animals  
+ |   ├── elephant.go  
+ |   ├── monkey.go  
+ |   └── rabbit.go  
+ └── main.go  
 ```
 @[1](アプリケーションと同名のディレクトリ) |
 @[6](mainパッケージ定義用のmain.go) |
