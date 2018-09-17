@@ -119,16 +119,16 @@ zoo
 ### パッケージと構成
 @snapend
 @[5](独自定義したパッケージを指定) |
-@[8-10]([パッケージ].[関数]で実行) |
+@[9-11]([パッケージ].[関数]で実行) |
 ---
 @snap[north]
 ### パッケージと構成
 @snapend
 ```
-$ go run main.go
-Grass
-Banana
-Carrot
+$ go run main.go  
+Grass  
+Banana  
+Carrot  
 ```
 @[1](zooフォルダ直下で go run を実行) |
 @[2-5](animalsパッケージの関数が呼び出される) |
