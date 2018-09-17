@@ -34,7 +34,7 @@
 - 改良されたC言語 |
 ---?image=images/go_download.png&size=55% 55%
 @snap[north]
-### ダウンロード
+@size[0.6em](ダウンロード)
 @snapend
 @snap[south]
 https://golang.org/dl/
@@ -156,5 +156,11 @@ zoo
 @[8](テスト結果の予想) |
 @[9](テストの実行) |
 @[11-13](テスト失敗時の例外出力) |
+```
+$ go test ./animals
+ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
+```
+@[1](zooフォルダ直下で「go test xx[パッケージ名]」を実行) |
+@[2](テスト結果が表示される) |
 ---
 ### おわり
