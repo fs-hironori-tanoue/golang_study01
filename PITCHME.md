@@ -89,7 +89,7 @@ $ go test hellog.go
 ### パッケージと構成
 @snapend
 ```
-zoo
+zoo  
 ├── animals  
 |   ├── elephant.go  
 |   ├── monkey.go  
