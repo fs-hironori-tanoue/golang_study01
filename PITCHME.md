@@ -90,9 +90,9 @@ $ go test hellog.go
 ```
 zoo  
 ├── animals  
-│     ├── elephant.go  
-│     ├── monkey.go  
-│     └── rabbit.go  
+│       ├── elephant.go  
+│       ├── monkey.go  
+│       └── rabbit.go  
 └── main.go  
 ```
 @[1](アプリケーションと同名のディレクトリ) |
