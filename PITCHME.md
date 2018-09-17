@@ -97,27 +97,40 @@ zoo
 └── main.go  
 ```
 @[1](アプリケーションと同名のディレクトリ) |
-@[6](mainパッケージ定義用のmain.go) |
-@[2-5](独自に定義するパッケージ) |
+@[6](直下にmainパッケージ定義用のmain.go) |
+@[2-5](独自に定義するパッケージのディレクトリ) |
 ---?code=src/zoo/animals/elephant.go
 @snap[north]
 ### パッケージと構成
 @snapend
-Elephantの餌を返す。
+それぞれの動物の餌を返す関数を定義
 ---?code=src/zoo/animals/monkey.go
 @snap[north]
 ### パッケージと構成
 @snapend
-Monkeyの餌を返す。
+それぞれの動物の餌を返す関数を定義
 ---?code=src/zoo/animals/rabbit.go
 @snap[north]
 ### パッケージと構成
 @snapend
-Rabbitの餌を返す。
+それぞれの動物の餌を返す関数を定義
 ---?code=src/zoo/main.go
 @snap[north]
 ### パッケージと構成
 @snapend
-@[5](独自定義したパッケージを指定する) |
+@[5](独自定義したパッケージを指定) |
+@[8-10]([パッケージ].[関数]で実行) |
+---
+@snap[north]
+### パッケージと構成
+@snapend
+```
+$ go run main.go
+Grass
+Banana
+Carrot
+```
+@[1](zooフォルダ直下で go run を実行) |
+@[2-5](animalsパッケージの関数が呼び出される) |
 ---
 ### おわり
