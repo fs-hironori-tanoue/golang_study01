@@ -34,7 +34,7 @@
 - 改良されたC言語 |
 ---?image=images/go_download.png&size=55% 55%
 @snap[north]
-@size[0.6em](ダウンロード)
+@size[1.2em](ダウンロード)
 @snapend
 @snap[south]
 https://golang.org/dl/
@@ -104,21 +104,22 @@ zoo
 @snap[north]
 ### パッケージと構成
 @snapend
-パッケージ名がディレクトリ名になるようファイルを構成する
+zoo/animals/elephant.go
 ---?code=src/zoo/animals/monkey.go
 @snap[north]
 ### パッケージと構成
 @snapend
-パッケージ名がディレクトリ名になるようファイルを構成する
+zoo/animals/monkey.go
 ---?code=src/zoo/animals/rabbit.go
 @snap[north]
 ### パッケージと構成
 @snapend
-パッケージ名がディレクトリ名になるようファイルを構成する
+zoo/animals/rabbit.go
 ---?code=src/zoo/main.go
 @snap[north]
 ### パッケージと構成
 @snapend
+zoo/main.go
 @[5](独自定義したパッケージをインポート) |
 @[9-11]([パッケージ].[関数]で実行) |
 ---
