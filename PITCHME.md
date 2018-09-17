@@ -50,7 +50,6 @@ https://golang.org/dl/
 ### 2.構成と実行
 @snapend
 - Hello, World!
-- プログラムの実行
 - Goのコマンド
 - パッケージと構成
 ---?code=src/hello/hello.go
@@ -62,7 +61,7 @@ https://golang.org/dl/
 @[7-9](メイン処理はmain関数で定義)
 ---
 @snap[north]
-### プログラムの実行
+### Hello, World!
 @snapend
 ```
 $ go run hello.go
@@ -91,9 +90,9 @@ $ go test hellog.go
 ```
 zoo  
 ├── animals  
-|   ├── elephant.go  
-|   ├── monkey.go  
-|   └── rabbit.go  
+│   ├── elephant.go  
+│   ├── monkey.go  
+│   └── rabbit.go  
 └── main.go  
 ```
 @[1](アプリケーションと同名のディレクトリ) |
@@ -103,17 +102,17 @@ zoo
 @snap[north]
 ### パッケージと構成
 @snapend
-それぞれの動物の餌を返す関数を定義
+パッケージ名がディレクトリ名になるようファイルを構成する
 ---?code=src/zoo/animals/monkey.go
 @snap[north]
 ### パッケージと構成
 @snapend
-それぞれの動物の餌を返す関数を定義
+パッケージ名がディレクトリ名になるようファイルを構成する
 ---?code=src/zoo/animals/rabbit.go
 @snap[north]
 ### パッケージと構成
 @snapend
-それぞれの動物の餌を返す関数を定義
+パッケージ名がディレクトリ名になるようファイルを構成する
 ---?code=src/zoo/main.go
 @snap[north]
 ### パッケージと構成
