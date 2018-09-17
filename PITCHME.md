@@ -52,6 +52,7 @@ https://golang.org/dl/
 - Hello, World!
 - Goのコマンド
 - パッケージと構成
+- パッケージのテスト
 ---?code=src/hello/hello.go
 @snap[north]
 ### Hello, World!
@@ -96,8 +97,9 @@ zoo
 └── main.go  
 ```
 @[1](アプリケーションと同名のディレクトリ) |
-@[6](直下にmainパッケージ定義用のmain.go) |
-@[2-5](独自に定義するパッケージのディレクトリ) |
+@[6](直下にmainパッケージ定義用の「main.go」) |
+@[2](独自に定義するパッケージのディレクトリを作成) |
+@[3-5](独自定義したパッケージのソースファイルを配置) |
 ---?code=src/zoo/animals/elephant.go
 @snap[north]
 ### パッケージと構成
@@ -117,7 +119,7 @@ zoo
 @snap[north]
 ### パッケージと構成
 @snapend
-@[5](独自定義したパッケージを指定) |
+@[5](独自定義したパッケージをインポート) |
 @[9-11]([パッケージ].[関数]で実行) |
 ---
 @snap[north]
@@ -129,7 +131,30 @@ Grass
 Banana  
 Carrot  
 ```
-@[1](zooフォルダ直下で go run を実行) |
-@[2-5](animalsパッケージの関数が呼び出される) |
+@[1](zooフォルダ直下で「go run」を実行) |
+@[2-5](animals パッケージの関数が呼び出される) |
+---
+@snap[north]
+### パッケージのテスト
+@snapend
+```
+zoo  
+├── animals  
+│       ├── animals_test.go  
+│       ├── elephant.go  
+│       ├── monkey.go  
+│       └── rabbit.go  
+└── main.go  
+```
+@[1](「[パッケージ名]_test.go」というファイルを追加) |
+---?code=src/zoo/animals/animals_test.go
+@snap[north]
+### パッケージのテスト
+@snapend
+@[4](標準パッケージの testing をインポート) |
+@[7](「Test + 関数名」でテスト対象の関数で定義) |
+@[8](テスト結果の予想) |
+@[9](テストの実行) |
+@[11-13](テスト失敗時の例外出力) |
 ---
 ### おわり
