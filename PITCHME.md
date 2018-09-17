@@ -146,7 +146,7 @@ zoo
 │       └── rabbit.go  
 └── main.go  
 ```
-@[1](「[パッケージ名]_test.go」というファイルを追加) |
+@[3](「[パッケージ名]_test.go」というファイルを追加) 
 ---?code=src/zoo/animals/animals_test.go
 @snap[north]
 ### パッケージのテスト
