@@ -103,17 +103,21 @@ zoo
 @snap[north]
 ### パッケージと構成
 @snapend
+Elephantの餌を返す。
 ---?code=src/zoo/animals/monkey.go
 @snap[north]
 ### パッケージと構成
 @snapend
+Monkeyの餌を返す。
 ---?code=src/zoo/animals/rabbit.go
 @snap[north]
 ### パッケージと構成
 @snapend
+Rabbitの餌を返す。
 ---?code=src/zoo/main.go
 @snap[north]
 ### パッケージと構成
 @snapend
+@[5](独自定義したパッケージを指定する) |
 ---
 ### おわり
