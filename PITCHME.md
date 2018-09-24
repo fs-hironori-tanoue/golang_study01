@@ -65,11 +65,11 @@ https://golang.org/dl/
 ### Hello, World!
 @snapend
 ```
-$ go run hello.go
-Hello, World!
+$ go run hello.go  
+Hello, World!  
 ```
-@[1](go run [ファイル名]で実行) |
-@[2](実行結果の表示) |
+@[1-1](go run [ファイル名]で実行) |
+@[2-2](実行結果の表示) |
 ---
 @snap[north]
 ### Goのコマンド
