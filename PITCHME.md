@@ -174,6 +174,7 @@ ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
 - 文(Statement)
 - 変数の定義
 - データ型
+- 配列型
 ---?code=src/hello2/hello.go
 @snap[north]
 ### 文(Statement)
@@ -260,5 +261,31 @@ hij
 @[3](rune型(C言語のChar型)) |
 @[4](string型) |
 @[5-9](RAW文字列リテラル(複数行に渡る文字列)) |
+---
+@snap[north]
+### データ型
+@snapend
+```
+a := [5]int{1, 2, 3, 4, 5}
+fmt.Printf("%v\n", a[0])
+b := [...]int{6, 7, 8. 9. 10}
+```
+@[1](「[n]データ型{初期値}」で定義) |
+@[2](配列は0からの範囲で指定(「1」と出力)) |
+@[3](「...」で要素数の省略も可能) |
+---
+@snap[north]
+### データ型
+@snapend
+```
+var x interface{}
+x = 1
+x = 3.13
+x = '松'
+x = "文字列"
+x = [...]int{1, 2, 3, 4, 5}
+```
+@[1](型名に「interface{}」で定義) |
+@[2-5](あらゆるデータ型との互換性がある) |
 ---
 ### おわり
