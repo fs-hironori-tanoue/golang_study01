@@ -157,8 +157,12 @@ zoo
 @[8](テスト結果の予想) |
 @[9](テストの実行) |
 @[11-13](テスト失敗時の例外出力) |
+---
+@snap[north]
+### パッケージのテスト
+@snapend
 ```
-$ go test ./animals
+$go test ./animals
 ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
 ```
 @[1](zooフォルダ直下で「go test xx[パッケージ名]」を実行) |
