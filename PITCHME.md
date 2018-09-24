@@ -16,7 +16,6 @@
 - Go言語とは
 - C言語との比較
 - ダウンロード
-- インストール
 ---
 @snap[north]
 ### Go言語とは
@@ -39,12 +38,6 @@
 @snap[south]
 https://golang.org/dl/
 @snapend
----
-@snap[north]
-### インストール
-@snapend
-- @fa[apple fa-lg] パッケージインストーラー
-- @fa[windows fa-lg] MSIインストーラー
 ---
 @snap[north]
 ### 2.構成と実行
@@ -322,6 +315,18 @@ for i := 0; i < 10; i++ {
 ```
 @[1-2](無限ループ) |
 @[3-4](0-9のループ) |
+---
+@snap[north]
+### 制御構文
+@snapend
+```
+fruits := [3]string{"Apple", "Banana", "Cherry"}
+for i, s := range fruits {
+  fmt.Printf("fruits[%d]=%s¥n", i, s)
+}
+@[2](for [インデックス], [配列の要素] := range [配列型]) |
+@[3](「fruits[0]=Apple・・・」と出力される) |
+```
 ---
 @snap[north]
 ### 制御構文
