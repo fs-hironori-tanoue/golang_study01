@@ -165,7 +165,18 @@ zoo
 $go test ./animals
 ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
 ```
-@[1](zooフォルダ直下で「go test xx[パッケージ名]」を実行) |
+@[1](zooフォルダ直下で「go test [パッケージ名]」を実行) |
 @[2](テスト結果が表示される) |
+---
+@snap[north]
+### 3.言語の基本
+@snapend
+- 文(Statement)
+---?code=src/hello2/hello.go
+@snap[north]
+### 文(Statement)
+@snapend
+文(Statement)はセミコロン(;)によって区切られる。
+ただし、省略可能。
 ---
 ### おわり
