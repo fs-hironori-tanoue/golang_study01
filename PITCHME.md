@@ -176,10 +176,15 @@ ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
 @snap[north]
 ### 文(Statement)
 @snapend
-文(Statement)はセミコロン(;)によって区切られる。  
-ただし、省略可能。  
-(コンパイラで自動的にセミコロンを挿入)  
+文(Statement)はセミコロン(;)  
+によって区切られる。  
+ただし、省略可能  
 ---?code=src/statement/statement.go
+@snap[north]
+### 文(Statement)
+@snapend
+(コンパイル前)
+---?code=src/statement/statement2.go
 @snap[north]
 ### 文(Statement)
 @snapend
