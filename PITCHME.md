@@ -200,12 +200,22 @@ ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
 var n int
 var x, y. z int
 var (
-  x, y, int
+  x, y int
   name string
 )
+i := 1
+b := true
+s := "abc"
 ```
 @[1](var で変数を定義) |
 @[2](カンマ区切りでまとめて定義も可能) |
 @[3-6](()で囲うことでまとめて定義も可能) |
+@[7-9](「:=」で初期値を代入しての定義が可能) |
+---?code=src/package/package.go
+@snap[north]
+### 変数の定義
+@snapend
+@[7](関数定義外に定義された変数はパッケージ変数となる) |
+@[11](「n=101」と出力される) |
 ---
 ### おわり
