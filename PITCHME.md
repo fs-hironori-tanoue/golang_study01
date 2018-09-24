@@ -75,10 +75,10 @@ Hello, World!
 ### Goのコマンド
 @snapend
 ```
-$ go run hello.go
-$ go build hello.go
-$ go fmt hello.go
-$ go test hellog.go
+$go run hello.go
+$go build hello.go
+$go fmt hello.go
+$go test hellog.go
 ```
 @[1](ビルド & 実行) |
 @[2](ビルドのみ) |
@@ -127,7 +127,7 @@ zoo/main.go
 ### パッケージと構成
 @snapend
 ```
-$ go run main.go  
+$go run main.go  
 Grass  
 Banana  
 Carrot  
