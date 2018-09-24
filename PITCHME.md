@@ -324,9 +324,9 @@ fruits := [3]string{"Apple", "Banana", "Cherry"}
 for i, s := range fruits {
   fmt.Printf("fruits[%d]=%s¥n", i, s)
 }
+```
 @[2](for [インデックス], [配列の要素] := range [配列型]) |
 @[3](「fruits[0]=Apple・・・」と出力される) |
-```
 ---
 @snap[north]
 ### 制御構文
