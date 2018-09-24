@@ -241,4 +241,23 @@ var ptr uintptr
 @[7-11](符号なし整数値) |
 @[12](ポインタ用符号なし整数) |
 ---
+@snap[north]
+### データ型
+@snapend
+```
+var f32 floag32
+var f64 floag64
+r := '松'
+s := "abc"
+r := `
+abc
+efg
+hij
+```
+@[1](浮動小数点(Java:float)) |
+@[2](浮動小数点(Java:double)) |
+@[3](rune型(C言語のChar型)) |
+@[4](string型) |
+@[5-9](RAW文字列リテラル(複数行に渡る文字列)) |
+---
 ### おわり
