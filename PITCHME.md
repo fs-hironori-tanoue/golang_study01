@@ -341,4 +341,37 @@ if x == 1 {
 @[2](最初の条件式に合致しない場合に判定される) |
 @[3](どれにも合致しない場合に処理される) |
 ---
+@snap[north]
+### 制御構文
+@snapend
+```
+n := 3
+switch n {
+case 1, 2:
+  fmt.Println("1 or 2")
+case 3, 4:
+  fmt.Println("3 or 4")
+default:
+  fmt.Println("unknown")
+}
+```
+@[2](「switch [簡易文:] [式]」と記載も可能) |
+@[3](複数の値をカンマ区切りで並べることが可能) |
+---
+@snap[north]
+### 制御構文
+@snapend
+```
+n := 3
+switch {
+case n >= 1 && n <= 2
+  fmt.Println("1 or 2")
+case n >= 3 && n <= 4
+  fmt.Println("3 or 4")
+default:
+  fmt.Println("unknown")
+}
+```
+@[3](case に式を定義可能) |
+---
 ### おわり
