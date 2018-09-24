@@ -245,14 +245,15 @@ var ptr uintptr
 ### データ型
 @snapend
 ```
-var f32 floag32
-var f64 floag64
+var f32 float32
+var f64 float64
 r := '松'
 s := "abc"
 r := `
 abc
 efg
 hij
+`
 ```
 @[1](浮動小数点(Java:float)) |
 @[2](浮動小数点(Java:double)) |
