@@ -173,6 +173,7 @@ ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
 @snapend
 - 文(Statement)
 - 変数の定義
+- データ型
 ---?code=src/hello2/hello.go
 @snap[north]
 ### 文(Statement)
@@ -217,5 +218,27 @@ s := "abc"
 @snapend
 @[7](関数定義外に定義された変数はパッケージ変数となる) |
 @[11](「n=101」と出力される) |
+---
+@snap[north]
+### データ型
+@snapend
+```
+var b bool
+var i int
+var i8 int8
+var i16 int16
+var i32 int32
+var i64 int64
+var ui uint
+var ui8 uint8
+var ui16 uint16
+var ui32 uint32
+var ui64 uint64
+var ptr uintptr
+```
+@[1](論理値) |
+@[2-6](符号付き整数値) |
+@[7-11](符号なし整数値) |
+@[12](ポインタ用符号なし整数) |
 ---
 ### おわり
