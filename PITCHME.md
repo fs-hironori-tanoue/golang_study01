@@ -175,6 +175,7 @@ ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
 - 変数の定義
 - データ型
 - 関数定義
+- 制御構文
 ---?code=src/hello2/hello.go
 @snap[north]
 ### 文(Statement)
@@ -309,5 +310,30 @@ func div(a, b int) (int, int) {
 @[1](func [関数名]( [引数の定義] [戻り値型] ) |
 @[5](戻り値がない場合は省略) |
 @[9](複数の戻り値の指定も可能) |
+---
+@snap[north]
+### 制御構文
+@snapend
+```
+for {
+}
+for i := 0; i < 10; i++ {
+}
+```
+@[1-2](無限ループ) |
+@[3-4](0-9のループ) |
+---
+@snap[north]
+### 制御構文
+@snapend
+```
+if x == 1 {
+} else if x == 2 {
+} else {
+}
+```
+@[1](条件式(x == 1)合致した場合に処理される) |
+@[2](最初の条件式に合致しない場合に判定される) |
+@[3](どれにも合致しない場合に処理される) |
 ---
 ### おわり
