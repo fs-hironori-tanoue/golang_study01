@@ -174,7 +174,7 @@ ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
 - 文(Statement)
 - 変数の定義
 - データ型
-- 配列型
+- 関数定義
 ---?code=src/hello2/hello.go
 @snap[north]
 ### 文(Statement)
@@ -286,6 +286,28 @@ x = "文字列"
 x = [...]int{1, 2, 3, 4, 5}
 ```
 @[1](型名に「interface{}」で定義) |
-@[2-5](あらゆるデータ型との互換性がある) |
+@[2-6](あらゆるデータ型との互換性がある) |
+---
+@snap[north]
+### 関数定義
+@snapend
+```
+func plus(x, y int) int {
+  return x + y
+}
+
+func hello() {
+  fmt.Println("Hello!")
+}
+
+func div(a, b int) (int, int) {
+  q := a / b
+  r := a % b
+  return q, r
+}
+```
+@[1](func [関数名]( [引数の定義] [戻り値型] ) |
+@[5](戻り値がない場合は省略) |
+@[9](複数の戻り値の指定も可能) |
 ---
 ### おわり
