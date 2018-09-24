@@ -172,6 +172,7 @@ ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
 ### 3.言語の基本
 @snapend
 - 文(Statement)
+- 変数の定義
 ---?code=src/hello2/hello.go
 @snap[north]
 ### 文(Statement)
@@ -191,5 +192,20 @@ ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
 @[1](文末にセミコロンを挿入) |
 @[3-5](文末が「,」「{」の場合はセミコロンを挿入しない) |
 @[7-10](文末にセミコロンが挿入されコンパイルエラー) |
+---
+@snap[north]
+### 変数の定義
+@snapend
+```
+var n int
+var x, y. z int
+var (
+  x, y, int
+  name string
+)
+```
+@[1](var で変数を定義) |
+@[2](カンマ区切りでまとめて定義も可能) |
+@[3-6](()で囲うことでまとめて定義も可能) |
 ---
 ### おわり
