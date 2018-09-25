@@ -170,6 +170,7 @@ ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
 - データ型
 - 関数定義
 - 制御構文
+- その他
 ---?code=src/hello2/hello.go
 @snap[north]
 ### 文(Statement)
@@ -380,14 +381,41 @@ default:
 ```
 n := 3
 switch {
-case n >= 1 && n <= 2
+case n >= 1 && n <= 2:
   fmt.Println("1 or 2")
-case n >= 3 && n <= 4
+case n >= 3 && n <= 4:
   fmt.Println("3 or 4")
 default:
   fmt.Println("unknown")
 }
 ```
 @[3](case に式を定義可能) |
+---
+@snap[north]
+### 制御構文
+@snapend
+```
+var x interface{} = "abc"
+switch x.(type) {
+case bool:
+  fmt.Println("bool")
+case int, uint:
+  fmt.Println("integer or unsined integer")
+case string:
+  fmt.Println("string")
+default:
+  fmt.Println("unknown")
+}
+```
+@[2](「x.(type)」でinterfaceの型判定も可能) |
+---
+@snap[north]
+### その他
+@snapend
+- 無名関数 |
+- enumの代わり「iota」 |
+- パッケージの初期「init()」 |
+- プログラムの中断と再開 「panic()」「recover()」 |
+- 関数の終了処理「defer」 |
 ---
 ### おわり
