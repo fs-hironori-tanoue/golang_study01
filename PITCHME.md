@@ -166,6 +166,7 @@ ok      _/Users/hiro_tan_00/workspace/golang_study01/src/zoo/animals    (cached)
 @snapend
 - 文(Statement)
 - 変数の定義
+- 定数の定義
 - データ型
 - 関数定義
 - 制御構文
@@ -213,6 +214,21 @@ s := "abc"
 @snapend
 @[7](関数定義外に定義された変数はパッケージ変数となる) |
 @[11](「n=101」と出力される) |
+---
+@snap[north]
+### 定数の定義
+@snapend
+```
+const A = 1
+const (
+  X = 1
+  Y
+  Z
+)
+```
+@[1](「const」で定数を定義) |
+@[2-6](()でまとめて定義も可能) |
+@[4-5](初期値を省略するとはじめの定義が適用(Y = 1, Z = 1)) |
 ---
 @snap[north]
 ### データ型
